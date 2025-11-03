@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+    byte a=12;
+    short b=4;
+    int c=5;
+    float f=60.3f;
+    boolean data= false;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(f);
+        System.out.println(data);
+    }
+}
