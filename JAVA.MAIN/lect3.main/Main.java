@@ -1,5 +1,5 @@
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
         String str = new String("hello");
