@@ -12,7 +12,7 @@ package lect6;
         this.marks = marks;
     }
 
-    void displayDetails() {
+    void display() {
         System.out.println("Name: " + name);
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Marks: " + marks);
@@ -25,9 +25,9 @@ package lect6;
         student student2 = new student("sahil", 102, 90.0);
         student student3 = new student("Narayan", 103, 78.5);
 
-        student1.displayDetails();
-        student2.displayDetails();
-        student3.displayDetails();
+        student1.display();
+        student2.display();
+        student3.display();
     }
 }
 }

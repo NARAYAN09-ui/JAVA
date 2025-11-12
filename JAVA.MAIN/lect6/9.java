@@ -40,8 +40,8 @@ class BankAccount {
         BankAccount account1 = new BankAccount("pushpa", 101, 5000.0);
         account1.displayDetails();
         account1.deposit(1500.0);
-        account1.displayDetails();  
-        account1.withdraw(2000.0);
+        account1.displayDetails();
+        account1.withdraw(5000.0);
         account1.displayDetails();
     }
 
